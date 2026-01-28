@@ -1,0 +1,99 @@
+/* CUSTOM PROPERTIES
+------------------------------------------ */
+:root {
+  --Very-dark: #303b52;
+  --Light: #5d3efb;
+  --Plain: #ecf2ff;
+  --White: #ffffff;
+  --Pink: #f98486;
+  --Yellow: #faca59;
+  --Green: #5dd0b0;
+  --Blue: #5353d9;
+  --color-dark: var(--Very-dark);
+  --color-light: var(--Light);
+  --color-plain: var(--Plain);
+  --color-pink: var(--Pink);
+  --color-yellow: var(--Yellow);
+  --color-green: var(--Green);
+  --color-blue: var(--Blue);
+  --font-family: "Lexend Deca", sans-serif;
+}
+
+/* Global Styles
+--------------------------------------- */
+body {
+  background-color: var(--color-plain);
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.result-summary {
+  display: flex;
+  width: 70%;
+  max-width: 500px;
+}
+
+.output {
+  display: flex;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  text-align: left;
+}
+
+.results {
+  color: #ffffff;
+  background-color: var(--color-light);
+  padding: 15px 50px;
+  border-radius: 25px;
+  width: 30%;
+}
+
+.first {
+  color: var(--color-pink);
+  background-color: #efe0e0;
+  border-radius: 20px;
+}
+
+.second {
+  color: var(--color-yellow);
+  background-color: #f7f7bf;
+  border-radius: 20px;
+}
+
+.third {
+  color: var(--color-green);
+  background-color: #edf6eb;
+  border-radius: 20px;
+}
+
+.fourth {
+  color: var(--color-blue);
+  background-color: #f7f7f3;
+  border-radius: 20px;
+}
+
+.summary {
+  background-color: #ffffff;
+  width: 50%;
+  margin: 0;
+  padding: 15px 0 30px 25px;
+  border-radius: 25px;
+}
+
+.values {
+  color: #000000;
+}
+button {
+  color: #ffffff;
+  background-color: var(--color-dark);
+  border-radius: 25px;
+  width: 150px;
+  padding: 10px 0;
+}
