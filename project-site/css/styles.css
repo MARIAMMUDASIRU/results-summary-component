@@ -9,6 +9,7 @@
   --Yellow: #faca59;
   --Green: #5dd0b0;
   --Blue: #5353d9;
+  --Gray: #8d8d8d;
   --color-dark: var(--Very-dark);
   --color-light: var(--Light);
   --color-plain: var(--Plain);
@@ -16,7 +17,8 @@
   --color-yellow: var(--Yellow);
   --color-green: var(--Green);
   --color-blue: var(--Blue);
-  --font-family: "Lexend Deca", sans-serif;
+  --color-gray: var(--Gray);
+  --font-family: "Times New Roman", Times, serif;
 }
 
 /* Global Styles
@@ -26,12 +28,16 @@ body {
   margin: 0 auto;
   padding: 30px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .result-summary {
   display: flex;
   width: 70%;
   max-width: 500px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
 .output {
@@ -39,6 +45,14 @@ body {
   gap: 10px;
 }
 
+.high-score {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.overall-score {
+  margin-top: 0;
+}
 h1 {
   font-size: 60px;
 }
@@ -52,7 +66,21 @@ h3 {
   background-color: var(--color-light);
   padding: 15px 50px;
   border-radius: 25px;
-  width: 30%;
+  width: 50%;
+}
+
+.score {
+  background-color: #4729d6;
+  width: 90%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  margin-bottom: 20px;
 }
 
 .first {
@@ -81,19 +109,36 @@ h3 {
 
 .summary {
   background-color: #ffffff;
-  width: 50%;
+  width: 70%;
   margin: 0;
-  padding: 15px 0 30px 25px;
-  border-radius: 25px;
+  padding: 25px;
+  padding-left: 50px;
+  padding-top: 15px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.symbol {
+  padding-left: 10px;
 }
 
 .values {
   color: #000000;
+  margin-left: 25px;
+}
+
+span {
+  color: var(--color-gray);
 }
 button {
   color: #ffffff;
   background-color: var(--color-dark);
   border-radius: 25px;
-  width: 150px;
+  width: 180px;
   padding: 10px 0;
+}
+
+section:first-child {
+  transform: translateX(20px);
+  z-index: 2;
 }
