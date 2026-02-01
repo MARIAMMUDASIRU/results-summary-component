@@ -9,16 +9,30 @@
   --Yellow: #faca59;
   --Green: #5dd0b0;
   --Blue: #5353d9;
+  --Primary-blue: #4729d6;
   --Gray: #8d8d8d;
+  --Black: #000000;
+  --Light-pink: #efe0e0;
+  --Light-yellow: #f7f7bf;
+  --Light-green: #edf6eb;
+  --Light-blue: #f7f7f3;
+  --Font: "Times New Roman", Times, serif;
   --color-dark: var(--Very-dark);
   --color-light: var(--Light);
   --color-plain: var(--Plain);
+  --color-white: var(--White);
   --color-pink: var(--Pink);
   --color-yellow: var(--Yellow);
   --color-green: var(--Green);
   --color-blue: var(--Blue);
+  --color-primary-blue: var(--Primary-blue);
   --color-gray: var(--Gray);
-  --font-family: "Times New Roman", Times, serif;
+  --color-black: var(--Black);
+  --color-light-pink: var(--Light-pink);
+  --color-light-yellow: var(--Light-yellow);
+  --color-light-green: var(--Light-green);
+  --color-light-blue: var(--Light-blue);
+  --font-family: var(--Font);
 }
 
 /* Global Styles
@@ -28,7 +42,7 @@ body {
   margin: 0 auto;
   padding: 30px;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--font-family);
 }
 
 .result-summary {
@@ -62,7 +76,7 @@ h3 {
 }
 
 .results {
-  color: #ffffff;
+  color: var(--color-white);
   background-color: var(--color-light);
   padding: 15px 50px;
   border-radius: 25px;
@@ -70,7 +84,7 @@ h3 {
 }
 
 .score {
-  background-color: #4729d6;
+  background-color: var(--color-primary-blue);
   width: 90%;
   height: 30%;
   border-radius: 50%;
@@ -85,30 +99,30 @@ h3 {
 
 .first {
   color: var(--color-pink);
-  background-color: #efe0e0;
+  background-color: var(--color-light-pink);
   border-radius: 20px;
 }
 
 .second {
   color: var(--color-yellow);
-  background-color: #f7f7bf;
+  background-color: var(--color-light-yellow);
   border-radius: 20px;
 }
 
 .third {
   color: var(--color-green);
-  background-color: #edf6eb;
+  background-color: var(--color-light-green);
   border-radius: 20px;
 }
 
 .fourth {
   color: var(--color-blue);
-  background-color: #f7f7f3;
+  background-color: var(--color-light-blue);
   border-radius: 20px;
 }
 
 .summary {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   width: 70%;
   margin: 0;
   padding: 25px;
@@ -123,7 +137,7 @@ h3 {
 }
 
 .values {
-  color: #000000;
+  color: var(--color-black);
   margin-left: 25px;
 }
 
@@ -131,7 +145,7 @@ span {
   color: var(--color-gray);
 }
 button {
-  color: #ffffff;
+  color: var(--color-white);
   background-color: var(--color-dark);
   border-radius: 25px;
   width: 180px;
