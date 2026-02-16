@@ -1,38 +1,22 @@
 /* CUSTOM PROPERTIES
 ------------------------------------------ */
 :root {
-  --Very-dark: #303b52;
-  --Light: #5d3efb;
-  --Plain: #ecf2ff;
-  --White: #ffffff;
-  --Pink: #f98486;
-  --Yellow: #faca59;
-  --Green: #5dd0b0;
-  --Blue: #5353d9;
-  --Primary-blue: #4729d6;
-  --Gray: #8d8d8d;
-  --Black: #000000;
-  --Light-pink: #efe0e0;
-  --Light-yellow: #f7f7bf;
-  --Light-green: #edf6eb;
-  --Light-blue: #f7f7f3;
-  --Font: "Times New Roman", Times, serif;
-  --color-dark: var(--Very-dark);
-  --color-light: var(--Light);
-  --color-plain: var(--Plain);
-  --color-white: var(--White);
-  --color-pink: var(--Pink);
-  --color-yellow: var(--Yellow);
-  --color-green: var(--Green);
-  --color-blue: var(--Blue);
-  --color-primary-blue: var(--Primary-blue);
-  --color-gray: var(--Gray);
-  --color-black: var(--Black);
-  --color-light-pink: var(--Light-pink);
-  --color-light-yellow: var(--Light-yellow);
-  --color-light-green: var(--Light-green);
-  --color-light-blue: var(--Light-blue);
-  --font-family: var(--Font);
+  --color-dark: #303b52;
+  --color-light: #5d3efb;
+  --color-plain: #ecf2ff;
+  --color-white: #ffffff;
+  --color-pink: #f98486;
+  --color-yellow: #faca59;
+  --color-green: #5dd0b0;
+  --color-blue: #5353d9;
+  --color-primary-blue: #4729d6;
+  --color-gray: #8d8d8d;
+  --color-black: #000000;
+  --color-light-pink: #efe0e0;
+  --color-light-yellow: #f7f7bf;
+  --color-light-green: #edf6eb;
+  --color-light-blue: #f7f7f3;
+  --font-family: "Times New Roman", Times, serif;
 }
 
 /* Global Styles
